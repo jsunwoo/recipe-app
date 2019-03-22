@@ -101,5 +101,6 @@ body {
 }
 
 .recipe__info .recipe__social {
-  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
 }
