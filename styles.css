@@ -11,7 +11,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -132,15 +133,24 @@ body {
 .recommended__grid {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 1fr;
-  grid-auto-columns: 1fr;
+  grid-template-columns: minmax(135px, 1fr);
+  grid-auto-columns: minmax(135px, 1fr);
   grid-gap: 20px;
   overflow: scroll;
 }
 
 .recommended-recipe {
   border-radius: var(--borderRadius);
-  background-image: url(https://i.pinimg.com/564x/fd/5f/7d/fd5f7deab0c25a37b9ca00772923da97.jpg);
+  background-image: url(https://i.pinimg.com/564x/f3/d2/2d/f3d22dad69979deaaeb427a43bdfb31e.jpg);
   background-size: 100%;
   background-position: center center;
+  height: 12vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.recommended-recipe .recommended-recipe__info{
+  background-color: white;
 }
