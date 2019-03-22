@@ -50,7 +50,7 @@ body {
 
 .main {
   margin-top: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .recipe {
@@ -106,6 +106,7 @@ body {
 .recipe__info .recipe__social {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   /* place-items: center center; */
 }
 .recipe__social .recipe__social-item {
@@ -119,7 +120,7 @@ body {
 .recommended .recommended__header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .recommended__header .recommended__title {
@@ -144,7 +145,7 @@ body {
   background-image: url(https://i.pinimg.com/564x/f3/d2/2d/f3d22dad69979deaaeb427a43bdfb31e.jpg);
   background-size: 100%;
   background-position: center center;
-  height: 12vh;
+  height: 15vh;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -153,4 +154,20 @@ body {
 
 .recommended-recipe .recommended-recipe__info{
   background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommended-recipe__info .recommended-recipe__title{
+  font-size: 11px;
+  margin: 1px 0;
+  font-weight: 500;
+}
+
+.recommended-recipe__info .recommended-recipe__subtitle{
+  font-size: 5px;
+  color: var(--greycolor);
+  font-weight: 100;
 }
