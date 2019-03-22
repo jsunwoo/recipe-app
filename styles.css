@@ -35,7 +35,7 @@ body {
 }
 
 .header__titles .header__subtitle {
-  font-size: 10px;
+  font-size: 11px;
   color: var(--greycolor);
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .recipe__info .recipe__meta {
-  font-size: 12px;
+  font-size: 11px;
   color: var(--greycolor);
   border-bottom: 1px solid var(--greycolor);
   padding-bottom: 5px;
