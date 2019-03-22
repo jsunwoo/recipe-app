@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  margin-top: 80px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,18 +52,21 @@ body {
 }
 
 .recipe {
+  position: relative;
   height: 40vh;
   border-radius: var(--borderRadius);
   background-image: url(https://i.pinimg.com/564x/b3/7b/f4/b37bf4fedf2269a8831b9d7168fd47cb.jpg);
   background-size: 100%;
   background-position: center center;
-  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .recipe .recipe__heart {
   position: absolute;
-  top: 25px;
-  right: 25px;
+  top: 20px;
+  right: 20px;
   width: 50px;
   height: 50px;
   background-color: white;
@@ -72,4 +75,31 @@ body {
   justify-content: center;
   align-items: center;
   color: #e74c3c;
+}
+
+.recipe .recipe__info {
+  position: relative;
+  top: 50px;
+  background-color: white;
+  border-radius: var(--borderRadius);
+  width: 90%;
+  padding: 20px 20px;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.recipe__info .recipe__title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.recipe__info .recipe__meta {
+  font-size: 12px;
+  color: var(--greycolor);
+  border-bottom: 1px solid var(--greycolor);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.recipe__info .recipe__social {
+  
 }
