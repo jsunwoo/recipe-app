@@ -1,4 +1,4 @@
-# recipeapp
+# recipe-app
 html, css practice
 
 
